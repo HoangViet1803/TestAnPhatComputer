@@ -1,0 +1,68 @@
+.voucher {
+    .voucher-title {
+        @include button-vouchers ($gadien_9, $box-shadow-1, $border-radius-35);
+        max-width: 594px;
+        max-height: $size-h-72 - 2;
+        text-align: center;
+        margin: auto;
+        span {
+            width: $size-w-270 - 2;
+            height: $size-h-20;
+            font-style: normal;
+            font-weight: $fw-800;
+            font-size: $fs-32 - 2;
+            line-height: $lh-70;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+    .list-voucher {
+        margin-top: 30px;
+        .voucher-item {
+            position: relative;
+            border: 3px solid #428EFF;
+            border-radius: 25px;
+            p {
+                @include sale-p($p-45, $p-70 + 2, $fw-900, $fs-20, $lh-20, $color-violet);
+                .sale {
+                    @include sale(-$p-20, $size-w-165, $size-h-65, $fw-800, $fs-70, $lh-55, $gadien_10)
+                }
+            }
+            .horizontal_dotted_line {
+                @include dottedLine($p-110, $p-20 - 2, $gadien_9, $size-w-300)
+            }
+            .sale-title {
+                @include sale-title($size-w-155 + 2, $size-h-30, $fw-700, $fs-15 - 1, $lh-20, $p-95)
+            }
+            .voucher-code {
+                @include voucher-code($p-20, $p-10, $size-w-318, $size-h-60, $fw-800, $fs-45 + 1, $lh-55 + 1);
+                @include button-vouchers ($gadien_9, $box-shadow-0, $border-radius-30);
+            }
+            &:nth-child(1),
+            &:nth-child(3) {
+                width: $size-w-345;
+                height: $size-h-230;
+            }
+            &:nth-child(2) {
+                width: $size-w-400 + 5;
+                height: $size-h-310 + 2;
+                p {
+                    @include sale-p($p-55 + 1, $p-45 - 3, $fw-900, $fs-32, $lh-35, $color-violet);
+                    .sale {
+                        @include sale(-$p-20, $size-w-230, $size-h-72, $fw-800, $fs-95 + 1, $lh-70 + 2, $gadien_10)
+                    }
+                }
+                .horizontal_dotted_line {
+                    @include dottedLine($p-150, $p-20 - 2, $gadien_9, $size-w-360 + 2)
+                }
+                .sale-title {
+                    @include sale-title($size-w-155, $size-h-30, $fw-700, $fs-24, $lh-20, $p-150 - 10)
+                }
+                .voucher-code {
+                    @include voucher-code($p-20, $p-10, $size-w-370 + 4, $size-h-98, $fw-800, $fs-75, $lh-95 + 3);
+                    @include button-vouchers ($gadien_9, $box-shadow-0, $border-radius-50);
+                }
+            }
+        }
+    }
+}

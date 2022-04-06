@@ -1,0 +1,38 @@
+footer {
+    margin-top: $mg-85;
+    background-color: $color-grey-4;
+    img {
+        margin-top: $mg-20 + 4;
+        margin-bottom: $mg-20;
+    }
+    p {
+        color: $color-bue-1;
+        font-weight: $fw-400;
+        font-size: $fs-15 + 1;
+        line-height: $lh-20;
+    }
+    .scrollup {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        opacity: 0.8;
+        position: absolute;
+        bottom: 125px;
+        right: 110px;
+        color: $color-violet-1;
+        text-align: center;
+        display: none;
+        border: 1px solid $color-violet-1;
+        border-radius: 50%;
+    }
+    .social {
+        i {
+            text-align: center;
+            width: 40px;
+            cursor: pointer;
+            font-size: $fs-24;
+            line-height: $lh-35 + 5;
+        }
+    }
+}

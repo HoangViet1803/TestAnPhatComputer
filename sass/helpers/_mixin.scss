@@ -1,0 +1,64 @@
+@mixin button-vouchers ($background, $box-shadow, $border-radius) {
+    background: $background;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+}
+
+@mixin sale-p($top, $left, $fw, $fs, $line-height, $color) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $line-height;
+    text-transform: uppercase;
+    color: $color;
+}
+
+@mixin sale ($top, $width, $height, $fw, $fs, $line-height, $bg) {
+    position: absolute;
+    top: $top;
+    width: $width;
+    height: $height;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $line-height;
+    background: $bg;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin sale-title ($width, $height, $fw, $fs, $line-height, $top) {
+    position: relative;
+    max-width: $width;
+    max-height: $height;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $line-height;
+    top: $top;
+    background-color: #fff;
+    padding: 10px 10px;
+}
+
+@mixin dottedLine ($top, $left, $background-image, $width) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    border-bottom: 2px dotted;
+    background-image: $background-image;
+    background-clip: border-box;
+    width: $width;
+}
+
+@mixin voucher-code ($bottom, $left, $width, $height, $fw, $fs, $line-h) {
+    position: absolute;
+    cursor: pointer;
+    bottom: $bottom;
+    left: $left;
+    width: $width;
+    height: $height;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $line-h;
+    color: #fff;
+}

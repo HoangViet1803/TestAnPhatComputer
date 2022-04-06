@@ -1,0 +1,41 @@
+.propose {
+    position: relative;
+    .propose-title {
+        width: $size-w-590;
+        height: $size-h-72 - 2;
+        background: $gadien_10;
+        border-radius: 0px $border-radius-25;
+        font-weight: $fw-800;
+        font-size: $fs-32 - 2;
+        line-height: $lh-20;
+        text-transform: uppercase;
+    }
+    .pc_component {
+        .nav-tabs {
+            border: 1px solid $color-grey-3;
+            a.nav-link {
+                cursor: pointer;
+                width: 100%;
+                text-align: center;
+                text-decoration: none;
+                color: $color-grey-2;
+                border: none;
+                padding-bottom: 4px;
+                &:hover {
+                    color: $color-violet-1
+                }
+                &.active {
+                    color: $color-violet-1;
+                    border-bottom: 4px solid $color-violet-1;
+                }
+            }
+        }
+    }
+    .btn-more {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        color: $color-violet-2;
+        border: 1px solid $color-violet-2;
+    }
+}

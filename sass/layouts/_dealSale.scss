@@ -1,0 +1,25 @@
+.deal_sale_to {
+    .tag-deal-sale {
+        width: $size-w-230 + 15;
+        height: $size-h-72 - 2;
+        background: $gadien_10;
+        box-shadow: $box-shadow-1;
+        border-radius: 0px $border-radius-35 $border-radius-35 0px;
+        font-weight: $fw-800;
+        font-size: $fs-32 - 2;
+        line-height: $lh-70;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .seeAll {
+        margin-top: $mg-20;
+        a {
+            text-decoration: none;
+            color: $color-violet-1;
+            &:hover {
+                color: $color-violet;
+            }
+        }
+    }
+}

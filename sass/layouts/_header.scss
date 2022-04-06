@@ -1,0 +1,18 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header {
+    .logo {
+        margin-top: $mg-12;
+        img {
+            width: 342px;
+            height: 83px;
+        }
+    }
+    .slide {
+        margin-top: $mg-15;
+        margin-bottom: 35px;
+    }
+}

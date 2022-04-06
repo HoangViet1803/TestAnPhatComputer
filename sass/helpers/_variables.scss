@@ -1,0 +1,88 @@
+// color
+$color-white: #fff;
+$color-violet: #30347C;
+$color-violet-1:#5200FF;
+$color-violet-2:#4D06E5;
+$color-orange: #F3370D;
+$color-grey:#D2D2D2;
+$color-grey-1: #999;
+$color-grey-2: #777;
+$color-grey-3: #E5E5E5;
+$color-grey-4: #F4F4F4;
+$color-bue-1: #428EFF;
+$gadien_4:linear-gradient(89.05deg, #C80C04 36.78%, #FFC550 139.57%);
+$gadien_9: linear-gradient(91.86deg, #FF6AD5 0.51%, #428EFF 70.71%);
+$gadien_10: linear-gradient(180deg, #5200FF 0%, #7200CC 100%);
+// Dark theme
+// size
+$size-w-155: 155px;
+$size-w-165: 165px;
+$size-w-230: 230px;
+$size-w-270: 270px;
+$size-w-300: 300px;
+$size-w-318: 318px;
+$size-w-345: 345px;
+$size-w-360: 360px;
+$size-w-370: 370px;
+$size-w-400: 400px;
+$size-w-590: 590px;
+$size-h-20: 20px;
+$size-h-60: 60px;
+$size-h-65: 65px;
+$size-h-72: 72px;
+$size-h-98: 98px;
+$size-h-30: 30px;
+$size-h-230: 230px;
+$size-h-310: 310px;
+// space 
+$p-10: 10px;
+$p-20: 20px;
+$p-45: 45px;
+$p-50: 50px;
+$p-55: 55px;
+$p-70:70px;
+$p-95: 95px;
+$p-110: 110px;
+$p-150: 150px;
+// font-size
+$fs-15: 15px;
+$fs-20: 20px;
+$fs-24: 24px;
+$fs-32: 32px;
+$fs-45: 45px;
+$fs-70: 70px;
+$fs-75: 75px;
+$fs-95: 95px;
+// font-weight
+$fw-400: 400;
+$fw-500: 500;
+$fw-700: 700;
+$fw-800: 800;
+$fw-900: 900;
+// line-height
+$lh-12: 12px;
+$lh-20: 20px;
+$lh-35: 35px;
+$lh-55: 55px;
+$lh-70: 70px;
+$lh-95: 95px;
+// margin
+$mg-12: 12px;
+$mg-15: 15px;
+$mg-20: 20px;
+$mg-85: 85px;
+// padding
+$pd-5: 5px;
+$pd-12: 12px;
+// border-radius
+$border-radius-10: 10px;
+$border-radius-20: 20px;
+$border-radius-25: 25px;
+$border-radius-30: 30px;
+$border-radius-35: 35px;
+$border-radius-50: 50px;
+// box-shadow
+$box-shadow-0: 0px 0px 0px rgba(0, 0, 0, 0);
+$box-shadow-1: 0px 4px 4px rgba(0, 0, 0, 0.25);
+// break points
+$breakpoints: ( 'xs': 0, 'sm': 576px, 'md': 768px, 'lg': 992px, 'xl': 1200px, 'screen-1': 1350px, 'xxl': 1400px)

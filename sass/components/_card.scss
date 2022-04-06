@@ -1,0 +1,68 @@
+.card-deal-sale {
+    position: relative;
+    border: 1px solid #E8E8E8;
+    border-radius: $border-radius-10 + 5;
+    cursor: pointer;
+    img {
+        padding-top: $pd-12;
+        padding-left: $pd-12;
+        padding-right: $pd-12;
+        width: 100%;
+    }
+    .discount {
+        font-size: $fs-15;
+        line-height: $lh-12;
+        position: absolute;
+        top: $p-10 + 2;
+        left: $p-10 + 2;
+        border: 1px solid $color-orange;
+        box-sizing: border-box;
+        border-radius: $border-radius-10 0px;
+        text-align: center;
+        color: $color-orange;
+        padding: $pd-5 $pd-5;
+    }
+    #countdownHidden {
+        display: none;
+        color: $color-orange;
+        font-size: $fs-15 + 1;
+        font-weight: $fw-500;
+        line-height: $lh-12;
+    }
+    .countdown {
+        text-align: center;
+        width: $size-w-155 - 5;
+        border: 1px solid $color-orange;
+        border-radius: $border-radius-20;
+        color: $color-orange;
+        ;
+    }
+    .cost {
+        text-decoration: line-through;
+        color: $color-grey-1;
+        font-weight: $fw-400;
+        font-size: $fs-15;
+        line-height: $lh-12;
+    }
+    .discounted {
+        color: $color-orange;
+        font-weight: $fw-700;
+        font-size: $fs-24;
+        line-height: $lh-12;
+    }
+    .progress {
+        margin-top: $mg-20;
+        position: relative;
+        background: $color-grey;
+        border-radius: $border-radius-10;
+        .progress-bar {
+            background: $gadien_4;
+        }
+        .sold {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            color: $color-white;
+        }
+    }
+}
